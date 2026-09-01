@@ -446,7 +446,7 @@ export default function Home() {
 
                     <p
                       id="cv-upload-help"
-                      className="mt-5 text-xs text-slate-400"
+                      className="mt-5 text-xs text-slate-600"
                     >
                       PDF only • Maximum file size 5 MB
                     </p>
@@ -469,7 +469,7 @@ export default function Home() {
                         {cvFile.name}
                       </p>
 
-                      <p className="mt-1 text-xs text-slate-400">
+                      <p className="mt-1 text-xs text-slate-600">
                         {(cvFile.size / 1024 / 1024).toFixed(2)} MB •
                         PDF
                       </p>
@@ -486,7 +486,7 @@ export default function Home() {
                   </div>
                 )}
 
-                <p className="mt-3 text-xs leading-5 text-slate-400">
+                <p className="mt-3 text-xs leading-5 text-slate-600">
                   This app does not save your CV. Its extracted text is
                   sent to the configured AI provider to generate the
                   analysis.
@@ -526,10 +526,10 @@ export default function Home() {
                   }}
                   rows={13}
                   placeholder={`Example:\n\nWe're looking for a Sales Engineer with experience in technical solutions, customer requirements, proposals, and engineering systems...`}
-                  className="min-h-[310px] w-full resize-none rounded-2xl border border-slate-200 bg-slate-50/70 p-4 text-sm leading-6 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-100 disabled:cursor-not-allowed disabled:opacity-60"
+                  className="min-h-[310px] w-full resize-none rounded-2xl border border-slate-200 bg-slate-50/70 p-4 text-sm leading-6 text-slate-900 outline-none transition placeholder:text-slate-500 focus:border-blue-500 focus:bg-white focus:ring-4 focus:ring-blue-100 disabled:cursor-not-allowed disabled:opacity-60"
                 />
 
-                <p className="mt-3 text-xs text-slate-400">
+                <p className="mt-3 text-xs text-slate-600">
                   Include the complete requirements for a more accurate
                   comparison.
                 </p>
@@ -641,7 +641,7 @@ export default function Home() {
             {/* Score + summary */}
             <div className="grid gap-6 lg:grid-cols-[320px_1fr]">
               <div className="rounded-[28px] border border-slate-200 bg-white p-8 shadow-sm">
-                <p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-400">
+                <p className="text-xs font-bold uppercase tracking-[0.18em] text-slate-600">
                   Alignment score
                 </p>
 
@@ -679,7 +679,7 @@ export default function Home() {
                       {analysis.matchScore}%
                     </p>
 
-                    <p className="mt-1 text-xs font-medium text-slate-400">
+                    <p className="mt-1 text-xs font-medium text-slate-600">
                       alignment
                     </p>
                   </div>
@@ -773,7 +773,7 @@ export default function Home() {
                       </span>
                     </div>
 
-                    <p className="max-w-sm text-left text-[11px] leading-5 text-slate-400 sm:text-right">
+                    <p className="max-w-sm text-left text-[11px] leading-5 text-slate-600 sm:text-right">
                       Scores are conservatively calibrated and may remain below 100%
                       even when all listed requirements are supported.
                     </p>
@@ -825,7 +825,7 @@ export default function Home() {
                         </div>
 
                         <div className="mt-4 rounded-xl border border-white/80 bg-white/80 px-4 py-3">
-                          <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-slate-400">
+                          <p className="text-[11px] font-bold uppercase tracking-[0.12em] text-slate-600">
                             CV evidence
                           </p>
 
@@ -1045,7 +1045,7 @@ export default function Home() {
 
         {/* Footer */}
         <footer className="border-t border-slate-200 bg-white">
-          <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-8 text-xs text-slate-400 sm:flex-row sm:items-center sm:justify-between lg:px-8">
+          <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 py-8 text-xs text-slate-600 sm:flex-row sm:items-center sm:justify-between lg:px-8">
             <p>AI Job Match</p>
 
             <p>

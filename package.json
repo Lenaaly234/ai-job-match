@@ -2,15 +2,15 @@
   "name": "ai-job-match",
   "version": "0.1.0",
   "private": true,
-"scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "lint": "eslint",
-  "test": "vitest",
-  "test:run": "vitest run",
-  "coverage": "vitest run --coverage"
-},
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
   "dependencies": {
     "@google/genai": "^2.20.0",
     "next": "16.3.3",
