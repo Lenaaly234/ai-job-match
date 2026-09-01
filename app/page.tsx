@@ -320,7 +320,7 @@ export default function Home() {
             gaps, strengths, and actionable improvements.
           </p>
 
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-slate-500">
+          <div className="mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm text-slate-700">
             <span className="flex items-center gap-2">
               <span className="text-emerald-600">✓</span>
               No account required
@@ -394,7 +394,7 @@ export default function Home() {
                     </p>
                   </div>
 
-                  <span className="rounded-lg bg-slate-100 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wider text-slate-500">
+                  <span className="rounded-lg bg-slate-100 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wider text-slate-700">
                     Step 01
                   </span>
                 </div>
